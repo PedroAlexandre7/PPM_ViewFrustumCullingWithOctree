@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="428.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.InsertController">
+   <children>
+      <Pane layoutX="186.0" layoutY="113.0" prefHeight="200.0" prefWidth="223.0">
+         <children>
+            <Label layoutX="35.0" layoutY="36.0" text="Insert file name:">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fileTextField" layoutX="10.0" layoutY="75.0" prefHeight="34.0" prefWidth="203.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="buttonDone" layoutX="76.0" layoutY="126.0" mnemonicParsing="false" onMouseClicked="#onButtonDoneClicked" prefHeight="42.0" prefWidth="72.0" text="Done">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

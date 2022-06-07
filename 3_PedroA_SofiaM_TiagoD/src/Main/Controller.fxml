@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller">
+    <children>
+        <SplitPane dividerPositions="0.12078313253012046" orientation="VERTICAL" prefHeight="665.0" prefWidth="867.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="71.0" prefWidth="866.0">
+                    <children>
+                        <Button fx:id="removeGreenButton" layoutX="106.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#onRemoveGreenButtonClicked" prefHeight="26.0" prefWidth="132.0" text="Remove Green" />
+                        <Button fx:id="setSepiaButton" layoutX="365.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#onSetSepiaButtonClicked" prefHeight="26.0" prefWidth="152.0" text="Set color to Sepia" />
+                        <!--                        <Slider fx:id="scaleSlider" layoutX="639.0" layoutY="35.0" max="99.0" min="1.0" onMouseDragged="#scaleSliderDrag" showTickMarks="true" value="50.0" />-->
+                        <Label layoutX="678.0" layoutY="17.0" text="Scale factor" />
+                        <Button layoutX="658.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#onX0_5ButtonClicked" prefHeight="26.0" prefWidth="41.0" text="0.5" fx:id="x0_5Button" />
+                        <Button layoutX="714.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#onX2ButtonClicked" prefHeight="26.0" prefWidth="42.0" text="2.0" fx:id="x2Button" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <SubScene fx:id="subScene1" height="548.0" layoutX="16.0" layoutY="10.0" width="840.0">
+                            <root>
+                                <Region />
+                            </root>
+                        </SubScene>
+                    </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

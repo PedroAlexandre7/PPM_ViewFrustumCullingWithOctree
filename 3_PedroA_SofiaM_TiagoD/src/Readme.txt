@@ -1,0 +1,2 @@
+Para usar o menu TextBased, ir ao ficheiro InitSubScene.scala e definir a val useMenuTextBased como true
+para usar o menu UIBased, ir ao ficheiro InitSubScene.scala e definir a val useMenuTextBased como false
